@@ -46,7 +46,7 @@ void setup() {
   Wire.begin();
   myAccel.init();
   myAccel.enableDefault();
-  num = calibrate();
+  num = calibrate(); // See calibrate function
 }
 
 void loop() {
